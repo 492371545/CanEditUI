@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F16D3519-5FBE-4864-9724-B25BA4041EAF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CanEditUI-Click</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B107A37A-6528-47C7-8CC7-E9628D0CB7AC</key>
+		<string>https://github.com/492371545/CanEditUI-Click.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CanEditUI-Click.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B107A37A-6528-47C7-8CC7-E9628D0CB7AC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/492371545/CanEditUI-Click.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B107A37A-6528-47C7-8CC7-E9628D0CB7AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B107A37A-6528-47C7-8CC7-E9628D0CB7AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CanEditUI-Click</string>
+		</dict>
+	</array>
+</dict>
+</plist>

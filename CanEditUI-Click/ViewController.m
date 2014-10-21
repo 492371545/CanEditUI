@@ -9,8 +9,9 @@
 #import "ViewController.h"
 #import "CanClickSegmentText.h"
 #import "CanEditBtn.h"
+#import "CheckBoxView.h"
 
-@interface ViewController ()<CanEditBtnDelegate,CanClickSegmentTextDelegate>
+@interface ViewController ()<CanEditBtnDelegate,CheckBoxViewDelegate,CanClickSegmentTextDelegate>
 
 @property (nonatomic)NSInteger lastIndex;
 
@@ -27,8 +28,14 @@
     [nameBtn setImage:[UIImage imageNamed:@"down"] forState:UIControlStateNormal];
     nameBtn.delegate = self;
     nameBtn.backgroundColor = [UIColor yellowColor];
-    
     [self.view addSubview:nameBtn];
+    
+    CheckBoxView *checkBox = [[CheckBoxView alloc] initWithFrame:CGRectMake(100, 160, 100, 30)];
+    checkBox.delegate = self;
+    checkBox.backgroundColor = [UIColor yellowColor];
+    checkBox.titleLab.text = @"checkBox点击之前";
+
+    [self.view addSubview:checkBox];
     
     NSArray *arr = [[NSArray alloc] initWithObjects:@"星期\n一", @"星期\n二", @"星期\n三", @"星期\n四", @"星期\n五", @"星期\n六", @"星期\n日", nil];
     NSArray *arr2 = [[NSArray alloc] initWithObjects:@"星期\n一", @"星期\n二", @"星期\n三", @"星期\n四", @"星期\n五", @"星期\n六", @"星期\n日",@"Monday", nil];
@@ -51,6 +58,29 @@
     clickTextMoreLine.delegate = self;
     [self.view addSubview:clickTextMoreLine];
     
+    
+}
+- (void)checkBoxPressAction:(CheckBoxView *)checkBox
+{
+    if(!checkBox.checkBtn.isSelected)
+    {
+        checkBox.titleLab.text = @"checkBox点击之后";
+        [checkBox.titleLab sizeToFit];
+        CGRect titleFrame = checkBox.titleLab.frame;
+        titleFrame.origin.y = (checkBox.frame.size.height - titleFrame.size.height)/2;
+        checkBox.titleLab.frame = titleFrame;
+        checkBox.frame = CGRectMake(100, 160, titleFrame.size.width+35, 30);
+    }
+    else
+    {
+     
+        checkBox.titleLab.text = @"checkBox点击之Qian";
+        [checkBox.titleLab sizeToFit];
+        CGRect titleFrame = checkBox.titleLab.frame;
+        titleFrame.origin.y = (checkBox.frame.size.height - titleFrame.size.height)/2;
+        checkBox.titleLab.frame = titleFrame;
+        checkBox.frame = CGRectMake(100, 160, titleFrame.size.width+35, 30);
+    }
 }
 
 - (void)clickAction:(NSInteger)index withevent:(id)sender

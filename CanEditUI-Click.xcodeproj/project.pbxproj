@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F364CD2219F638A2007BA903 /* CheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CD2119F638A2007BA903 /* CheckBoxView.m */; };
 		F3C6149219F514E800E41D1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6149119F514E800E41D1F /* Foundation.framework */; };
 		F3C6149419F514E800E41D1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6149319F514E800E41D1F /* CoreGraphics.framework */; };
 		F3C6149619F514E800E41D1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C6149519F514E800E41D1F /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F364CD2019F638A2007BA903 /* CheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBoxView.h; sourceTree = "<group>"; };
+		F364CD2119F638A2007BA903 /* CheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBoxView.m; sourceTree = "<group>"; };
 		F3C6148E19F514E800E41D1F /* CanEditUI-Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CanEditUI-Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C6149119F514E800E41D1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3C6149319F514E800E41D1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				F3C614C719F514F900E41D1F /* CanClickSegmentText.m */,
 				F3C614C819F514F900E41D1F /* CanEditBtn.h */,
 				F3C614C919F514F900E41D1F /* CanEditBtn.m */,
+				F364CD2019F638A2007BA903 /* CheckBoxView.h */,
+				F364CD2119F638A2007BA903 /* CheckBoxView.m */,
 				F3C614A019F514E800E41D1F /* AppDelegate.h */,
 				F3C614A119F514E800E41D1F /* AppDelegate.m */,
 				F3C614A319F514E800E41D1F /* Main.storyboard */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C614CA19F514F900E41D1F /* CanClickSegmentText.m in Sources */,
+				F364CD2219F638A2007BA903 /* CheckBoxView.m in Sources */,
 				F3C614CB19F514F900E41D1F /* CanEditBtn.m in Sources */,
 				F3C614A819F514E900E41D1F /* ViewController.m in Sources */,
 				F3C614A219F514E800E41D1F /* AppDelegate.m in Sources */,
@@ -468,6 +474,7 @@
 				F3C614C219F514E900E41D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3C614C319F514E900E41D1F /* Build configuration list for PBXNativeTarget "CanEditUI-ClickTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +483,7 @@
 				F3C614C519F514E900E41D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
